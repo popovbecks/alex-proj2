@@ -58,3 +58,7 @@ h1{
 .junior-team li {
    list-style-type: none; 
 }
+td img {
+    width: 100px;
+    height:100px;
+}
