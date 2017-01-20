@@ -1,3 +1,11 @@
-<div class="sidebar">
-  <app-sidebar></app-sidebar>
+<div class="wraper-head">
+  <app-header></app-header>
 </div>
+
+  <div class="wrapper">
+    <app-sidebar (showJunior)="changeJuniorState()" (showTrainee)="changeTraineeState()"></app-sidebar>
+     <app-main [internState]="internState" [juniorState]="juniorState"></app-main>
+     <app-footer></app-footer>
+  </div>
+  
+ 

@@ -1,0 +1,22 @@
+.wrapper-head{
+    width:100%;
+    background-color: lightblue;
+}
+.wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+app-sidebar{
+    width: 30%;
+    float:left;
+}
+app-main{
+    width: 70%;
+    float:left;
+}
+app-footer{
+    width: 100%;
+    background-color: gold;
+    float:left;
+}
+

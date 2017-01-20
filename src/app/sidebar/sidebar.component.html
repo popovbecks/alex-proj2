@@ -1,63 +1,13 @@
-<div class="header">
-  <h1>Hi, i'm header!!!</h1>
-</div>
-<div class="wrapper">
+
+
   <div class="side-bar">
-    <div class="btn-group-vertical" (click)="changeIntState()">
-      <button>Intern team</button>
-    </div>
-    <div class="btn-group-vertical" (click)="changeJunState()">
-      <button>Junior team</button>
-    </div>
-  </div>
-  <div class="main">
-    <p>If you click on button, you will see our developers</p>
-  <div class="display">
+    <div class="buttons">
     
-    <div class="intern-team" *ngIf="internState">
-      <table class="table table-striped table-hover ">
-  <thead>
-    <tr>
-      
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Photo</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let int of arr_int">
-    <tr >
-      
-      <td>{{int.first_name}}</td>
-      <td>{{int.Surname}}</td>
-      <td><img [src]="int.url" ></td>
-    </tr>
-    </tbody>
-</table> 
-      
-    </div>
-    <div class="junior-team" *ngIf="juniorState">
-      <table class="table table-striped table-hover ">
-  <thead>
-    <tr>
-      
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Photo</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let int of arr_jun">
-    <tr >
-      
-      <td>{{int.first_name}}</td>
-      <td>{{int.Surname}}</td>
-      <td><img [src]="int.url" ></td>
-    </tr>
-    </tbody>
-</table> 
+      <button (click)="changeIntState()" class="button"> Intern team</button>
+   
+    
+      <button class="button" (click)="changeJunState()">Junior team</button>
     </div>
   </div>
-  </div>
-</div>
-<div class="footer">
-  <h2>Hi, i'm footer!!!!</h2>
-</div>
+ 
+  

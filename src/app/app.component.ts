@@ -7,5 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  internState:boolean = false;
+  juniorState:boolean = false;
  
+
+changeJuniorState() {
+  
+this.juniorState = !this.juniorState;
+
+
+
+}
+changeTraineeState() {
+  
+this.internState = !this.internState;
+
+
+
+}
+
 }

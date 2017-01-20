@@ -30,7 +30,7 @@ h1{
 .side-bar{
     border:1px solid darkblue;
     background-color: lightblue;
-    width:20%;
+    padding-right: 300px;
     float:left;
 }
 .side-bar ul li{
@@ -61,4 +61,10 @@ h1{
 td img {
     width: 100px;
     height:100px;
+}
+.button{
+    width: 100px;
+    margin-bottom:20px;
+    background-color: cornflowerblue;
+    display: block;
 }
